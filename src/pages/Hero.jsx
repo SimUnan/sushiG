@@ -30,10 +30,10 @@ const Hero = () => {
             <div className="h-[91vh] flex flex-col items-center justify-between pt-[19%] md:pt-[18%] w-[57%] bg-creamSonColor">
                 <div className="w-full px-6 md:px-10 flex flex-col items-center justify-start ">
                     <h1 className="px-8 md:px-0 text-6xl md:text-7xl  font-playFair font-bold">Feel the taste<br/> of <span className="hidden md:inline">japanese food</span></h1>
-                    <span className="md:hidden block text-6xl font-playFair font-bold">
+                    <div className="md:hidden block text-6xl font-playFair font-bold">
                         <h1 className="absolute top-[48%] left-[22%] text-7xl z-10 ">japanese <span><p className="text-right">food</p></span></h1>
                         {/* <h1>food</h1> */}
-                    </span>
+                    </div>
                     <div className="mt-[10rem] md:px-8 md:mt-6 md:flex md:flex-col md:items-center text-sm md:text-normal">
                         <p>Feel the taste of the most popular japanese food from anywhere and anytime</p>
                         <div className="flex items-center justify-center mt-4 gap-x-10">

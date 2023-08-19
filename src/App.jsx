@@ -4,6 +4,8 @@ import Navbar from './components/Navbar/Navbar'
 import Hero from './pages/Hero'
 import AboutUs from './pages/AboutUs'
 import Popular from './pages/Popular'
+import Trending from './pages/Trending'
+import Newsletter from './pages/Newsletter'
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
         <Hero/>
         <AboutUs />
         <Popular />
+        <Trending />
+        <Newsletter />
       </Layout>
     </div>
   )
